@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" name="chrometests(failed)" parallel="classes">
+    <parameter name="grid" value="true"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.trishana.gridtests.GoogleTest">
+        <methods>
+          <include name="init"/>
+          <include name="close"/>
+          <include name="googleTest"/>
+        </methods>
+      </class> <!-- com.trishana.gridtests.GoogleTest -->
+      <class name="com.trishana.gridtests.WikiTest">
+        <methods>
+          <include name="init"/>
+          <include name="wikiTest"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.trishana.gridtests.WikiTest -->
+    </classes>
+  </test> <!-- chrometests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44812" started-at="2019-06-29T02:50:14Z" finished-at="2019-06-29T02:50:59Z">
+    <groups>
+    </groups>
+    <test name="firefoxtests" duration-ms="13858" started-at="2019-06-29T02:50:14Z" finished-at="2019-06-29T02:50:28Z">
+      <class name="com.trishana.gridtests.WikiTest">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String)[pri:0, instance:com.trishana.gridtests.WikiTest@68be2bc2]" name="init" is-config="true" duration-ms="5471" started-at="2019-06-29T02:50:14Z" finished-at="2019-06-29T02:50:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="wikiTest()[pri:0, instance:com.trishana.gridtests.WikiTest@68be2bc2]" name="wikiTest" duration-ms="885" started-at="2019-06-29T02:50:19Z" finished-at="2019-06-29T02:50:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikiTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.trishana.gridtests.WikiTest@68be2bc2]" name="close" is-config="true" duration-ms="947" started-at="2019-06-29T02:50:20Z" finished-at="2019-06-29T02:50:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.trishana.gridtests.WikiTest -->
+      <class name="com.trishana.gridtests.GoogleTest">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String)[pri:0, instance:com.trishana.gridtests.GoogleTest@28feb3fa]" name="init" is-config="true" duration-ms="3906" started-at="2019-06-29T02:50:21Z" finished-at="2019-06-29T02:50:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="googleTest()[pri:0, instance:com.trishana.gridtests.GoogleTest@28feb3fa]" name="googleTest" duration-ms="1704" started-at="2019-06-29T02:50:25Z" finished-at="2019-06-29T02:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.trishana.gridtests.GoogleTest@28feb3fa]" name="close" is-config="true" duration-ms="931" started-at="2019-06-29T02:50:27Z" finished-at="2019-06-29T02:50:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.trishana.gridtests.GoogleTest -->
+    </test> <!-- firefoxtests -->
+    <test name="chrometests" duration-ms="44812" started-at="2019-06-29T02:50:14Z" finished-at="2019-06-29T02:50:59Z">
+      <class name="com.trishana.gridtests.WikiTest">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String)[pri:0, instance:com.trishana.gridtests.WikiTest@68c4039c]" name="init" is-config="true" duration-ms="2769" started-at="2019-06-29T02:50:14Z" finished-at="2019-06-29T02:50:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="wikiTest()[pri:0, instance:com.trishana.gridtests.WikiTest@68c4039c]" name="wikiTest" duration-ms="19626" started-at="2019-06-29T02:50:17Z" finished-at="2019-06-29T02:50:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikiTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.trishana.gridtests.WikiTest@68c4039c]" name="close" is-config="true" duration-ms="48" started-at="2019-06-29T02:50:36Z" finished-at="2019-06-29T02:50:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.trishana.gridtests.WikiTest -->
+      <class name="com.trishana.gridtests.GoogleTest">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String)[pri:0, instance:com.trishana.gridtests.GoogleTest@ae45eb6]" name="init" is-config="true" duration-ms="1908" started-at="2019-06-29T02:50:36Z" finished-at="2019-06-29T02:50:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="googleTest()[pri:0, instance:com.trishana.gridtests.GoogleTest@ae45eb6]" name="googleTest" duration-ms="20393" started-at="2019-06-29T02:50:38Z" finished-at="2019-06-29T02:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.trishana.gridtests.GoogleTest@ae45eb6]" name="close" is-config="true" duration-ms="54" started-at="2019-06-29T02:50:59Z" finished-at="2019-06-29T02:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.trishana.gridtests.GoogleTest -->
+    </test> <!-- chrometests -->
+  </suite> <!-- Suite -->
+</testng-results>
